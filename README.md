@@ -1,49 +1,55 @@
-# GEC WC - Secure Exam Lockdown System 🔐
-**Developed by Quantazeroplus**
+# 🛡️ EXAM LOCKDOWN
+**Engineered by Quantazeroplus**
 
-### 📖 Overview
-A lightweight Windows lockdown tool designed for conducting digital exams at **Government Engineering College (GEC), West Champaran**. This system converts standard PCs into a secure kiosk environment, preventing unauthorized access to system files, taskbars, or local storage while viewing a question paper.
+### 🌟 Vision
+A next-generation, lightweight kiosk architecture designed for **Government Engineering College, West Champaran**. This system redefines academic integrity by temporarily reshaping the Windows environment into a dedicated, unhackable examination terminal. No unauthorized files, no desktop distractions—just the exam.
 
 
 
-### ✨ Key Features
-* **Shell Lockdown:** Automatically terminates `explorer.exe` to disable the Taskbar, Start Menu, and Desktop icons.
-* **Universal Path Detection:** Uses registry-based detection to find the Desktop path, even on laptops using **OneDrive**.
-* **Anti-Download Logic:** Forces PDF viewing via G-Drive `/preview` rendering to prevent students from saving files.
-* **Instruction Overlay:** Displays persistent exam rules on the background CMD window accessible via `...`.
-* **Secure Recovery:** Only restores the Windows Shell after a teacher-validated password (`Password`) is entered.
-* **Self-Cleanup:** Features a self-destruct command (`del %~f0`) to remove the script from the PC after use.
-
----
-
-### 🛠️ Technical Stack
-* **Language:** Windows Batch Scripting (CMD)
-* **Security:** System-level process termination and loop logic.
-* **Target OS:** Windows 10 & 11.
+### 🚀 Innovation Highlights
+* **Total Shell Immersion:** Seamlessly bypasses the standard Windows interface to eliminate Taskbar and Start Menu interference.
+* **Smart Path Resolution:** Advanced registry-based logic ensures perfect deployment on any hardware configuration, including cloud-synced OneDrive environments.
+* **Safe-Stream Viewing:** High-security rendering forces exam content to stay within the browser, neutralizing download and "Save As" exploits.
+* **Persistent Rule-Overlay:** A background instruction layer that remains anchored, ensuring students always have access to exam protocols.
+* **Vault Technology:** Integrated utility to create hidden, fortified directories for administrative file protection.
+* **Administrative Recovery:** An intelligent session-restore loop that only hands back control after authorized administrative validation.
+* **Ghost Protocol:** Automated self-removal architecture that leaves zero footprint on the student machine post-examination.
 
 ---
 
-### 🚀 Usage Instructions
-
-1.  **Preparation:** Run the `Installer.bat` on the teacher/admin computer.
-2.  **Deployment:** It will generate a `GEC_Exam.bat` file on the Desktop.
-3.  **Execution:** Run `GEC_Exam.bat` on the student's PC to start the exam lockdown.
-4.  **Student Rules:** * Write answers on Paper/OMR.
-    * Use `Alt+Tab` to view rules.
-    * `Alt+F4` to close the browser (requires Teacher Password to exit).
+### 🛠️ Technical DNA
+* **Core Engine:** Windows Command Architecture
+* **Logic Architecture:** Synchronous Process Monitoring & Attribute-Based Hiding
+* **Compatibility:** Optimized for Modern Windows Ecosystems (10/11)
 
 ---
 
-### 📂 Repository Structure
-* `Installer.bat`: The main setup script to generate the lockdown tool.
-* `README.md`: Documentation for the system.
+### 📖 The Workflow
+
+1.  **Orchestration:** Run the setup utility to generate the secure deployment module.
+2.  **Activation:** Deploy the module on student terminals to trigger the kiosk environment.
+3.  **Data Security:** Utilize the integrated vault tool to safeguard sensitive administrative documents.
+4.  **Student Protocol:**
+    * Focus remains strictly on Paper/OMR submission.
+    * System rules remain accessible via standard navigation shortcuts.
+    * Session termination triggers a mandatory administrative authorization screen.
 
 ---
 
-### 👤 Author
-**Sandeep Kumar (Sandy)** *Founder, Quantazeroplus* *B.Tech Computer Science & Engineering (2nd Year)* *GEC West Champaran*
+### 📂 Project Architecture
+* **`Setup_Orchestrator.bat`**: The primary engine for generating the lockdown environment.
+* **`Administrative_Vault.bat`**: A specialized utility for creating password-protected hidden lockers.
+* **`README.md`**: Project blueprint and documentation.
 
 ---
 
-### ⚖️ License
-This project is for educational use within the GEC West Champaran campus.
+### 👤 The Creator
+**Sandeep Kumar (Sandy)**
+*Founder, Quantazeroplus*
+*Computer Science & Engineering*
+*GEC West Champaran*
+
+---
+
+### 📜 Institutional Policy
+This project is developed for the exclusive educational advancement of the GEC West Champaran campus. Licensed for academic integrity.
