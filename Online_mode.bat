@@ -14,7 +14,7 @@ call set "TARGET=%MY_DESKTOP%\GEC_Exam.bat"
 
 echo @echo off > "%TARGET%"
 echo setlocal >> "%TARGET%"
-echo set "SECRET=Gecwc1234@" >> "%TARGET%"
+echo set "SECRET=Your_password " >> "%TARGET%"
 echo set "LOGFILE=%TEMP%\exam_logs.txt" >> "%TARGET%"
 
 :: Kill explorer immediately
@@ -35,7 +35,7 @@ echo echo. >> "%TARGET%"
 
 :: Start Edge and WAIT - FIXED URL TO STOP DOWNLOAD
 :: Changed /uc?export=view to /file/d/.../preview
-echo start /wait msedge --kiosk "https://drive.google.com/file/d/1T_XLcLb30OgGSg0usY6FTzniux19ilhL/preview" --edge-kiosk-type=fullscreen >> "%TARGET%"
+echo start /wait msedge --kiosk "YOUR DRIVE LINK" --edge-kiosk-type=fullscreen >> "%TARGET%"
 
 echo :UNLOCK_PHASE >> "%TARGET%"
 echo cls >> "%TARGET%"
